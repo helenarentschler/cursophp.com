@@ -36,8 +36,16 @@
     else:
         echo "não é boolean";
     endif;
-    echo "<hr>";
+    echo "<br>";
     
+
+    if($isAlive):
+        echo "vivo";
+    else:
+        echo "morto";
+    endif;
+    echo "<hr>";
+
     // Array
     $carros = array('Gol', 'Uno', 'Camaro', 12, 20.6, true);
     var_dump($carros);
