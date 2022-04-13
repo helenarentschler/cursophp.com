@@ -70,5 +70,7 @@
         echo "não é objeto";
     endif;
 
+    $cidade = "Ponta Grossa";
+
     // Outros tipos: NULL e RESOURCE
 ?>
