@@ -1,3 +1,4 @@
+<!-- Retornam true ou false -->
 <html>
 <body>
     <?php
