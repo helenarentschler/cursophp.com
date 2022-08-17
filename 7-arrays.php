@@ -55,11 +55,12 @@
         echo "<br>";
         $pessoa["cidade"] = "São Paulo";
         print_r($pessoa);
-        echo "<hr>";
 
         foreach($pessoa as $indice => $atributo) {
             echo $indice.": ".$atributo."<br>";
         }
+        
+        echo "<hr>";
     
     //Arrays multidimensionais
     //arrays de arrays

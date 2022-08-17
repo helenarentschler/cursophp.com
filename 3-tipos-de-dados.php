@@ -55,14 +55,24 @@
 
     class Cliente {
         public $nome;
+        public $idade;
         public function atribuirNome($nome) {
             $this->$nome = $nome;
+        }
+        public function atribuirIdade($idade) {
+            $this->$idade = $idade;
         }
     }
 
     $cliente = new Cliente();
     $cliente->atribuirNome("Rodrigo");
     var_dump($cliente);
+
+    $Ana = new Cliente();
+    $Ana->atribuirIdade(20);
+
+    echo $Ana->$idade;
+    echo "<hr>";
 
     if(is_object($cliente)):
         echo "é objeto";

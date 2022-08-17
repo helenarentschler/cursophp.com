@@ -34,7 +34,8 @@
                 echo "<li>$erro</li>";
             endforeach;
         else:
-            echo "Sucesso!";
+            echo "<br> Sucesso!";
+            echo $idade."<br>".$email."<br>".$peso."<br>".$ip."<br>".$url;
         endif;
     ?>
     <form action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
