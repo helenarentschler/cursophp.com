@@ -1,11 +1,11 @@
 <?php
-    $arquivo = 'arquivo.txt';
+    $arquivo = 'arquivo.pdf';
 
     $conteudo = "Ola, mundo!\r\n";
 
     $tamanhoArquivo = filesize($arquivo);
 
-    $arquivoAberto = fopen($arquivo, 'r');
+    $arquivoAberto = fopen($arquivo, 'r'); // Read only
 
     //fwrite($arquivoAberto, $conteudo);
 
